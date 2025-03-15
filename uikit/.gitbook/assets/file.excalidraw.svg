@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 478 271" width="478" height="271">
+  <!-- svg-source:excalidraw -->
+  <!-- payload-type:application/vnd.excalidraw+json --><!-- payload-version:2 --><!-- payload-start -->eyJ2ZXJzaW9uIjoiMSIsImVuY29kaW5nIjoiYnN0cmluZyIsImNvbXByZXNzZWQiOnRydWUsImVuY29kZWQiOiJ4nM2U0WrbMFx1MDAxNIbv81x1MDAxNMa7XHUwMDFkrWUrsp3LbbnoXHUwMDA2LSOEQMZcdTAwMTiKpdqaXHUwMDE1yUhK06zk3ScpieUm66CMwjBcYvSfc/TrXHUwMDFjffhpXHUwMDE0RbHZdTSeRDF9rDBnROFt/N7pXHUwMDBmVGkmhVxypX6v5UZVPrMxptOT62vcdVc1Mysp26tKrlx1MDAwZmWU0zVcdTAwMTVG28Rvdlx1MDAxZkVPflx1MDAxZFx1MDAxOClaXHUwMDE5LGpOfYFcdTAwMGZcdTAwMDUvgM7FWym87Vx1MDAxOCYgXHUwMDAxXHUwMDAw9nGmP1kzQ4lcct5jrmmIOCkm7d18vlx1MDAxNVx1MDAxNZovp/rr8svPXHUwMDFmajVccp73jPOZ2XF/Jy1t6yGmjZItXTBimlP/XHUwMDAz/aUqJTd1I6h2vYNelVx1MDAxZK6Y2TktSXr1MIBJXHUwMDE0lEe7Q2XR731FXHUwMDAxzrw/Si6V835cdTAwMDeo+4L7XG5XbW2vIEifY1x1MDAxNFx1MDAxNrrDyr5HyNueukryXmsoq1x1MDAxYuNEMDCkfrSgLLKkyPLB5J1Nd0P8XHUwMDFif1x1MDAwZlx1MDAwM1V4TW9cXInYcD6ciiDHqZxYXGI0ZEdlXHUwMDFm+nD501x1MDAwMUXBYdNcdTAwMTF8eG+Qp1x1MDAxMObjXHUwMDEyjWFcdTAwMTHuxZloz+25rNqAyGjgdVx1MDAwMSZheC1cdTAwMDX5I5bwJSxcdTAwMTFcdTAwMWNnOVx1MDAxYb+CS5zKxU6BmbqtXHUwMDE3S1Pmqrz7XFz931xcgiTLn4GZwrdcdTAwMDMzLy+5XHUwMDA0ML3gMilcdTAwMTFK0lx1MDAxMqK34DL9Ny7zJEPo1Vxc2tVcdTAwMWZcdTAwMWHbP+vM2CP7q9nWXHUwMDE4mbFf9Nkx8Vx1MDAwM6PbXHUwMDBmf1x1MDAxZu/o2IPjivpe96P9b1xi6obVIn0=<!-- payload-end -->
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@undefined/dist/excalidraw-assets/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@undefined/dist/excalidraw-assets/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@undefined/dist/excalidraw-assets/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="478" height="271" fill="transparent"/><g stroke-linecap="round" transform="translate(30 30) rotate(0 103.5 105.5)"><path d="M32 0 C78.36 -2.86, 126.7 -1.68, 175 0 M32 0 C60.61 1.5, 90.35 1.55, 175 0 M175 0 C197.89 -1.7, 206.89 11.27, 207 32 M175 0 C196.58 1.15, 205.61 8.61, 207 32 M207 32 C209.67 88.92, 208.77 150.8, 207 179 M207 32 C205.63 61.41, 204.96 93.04, 207 179 M207 179 C205.34 198.51, 194.7 211.13, 175 211 M207 179 C206.09 200.63, 197.11 211.65, 175 211 M175 211 C130.99 213.23, 90.64 211.59, 32 211 M175 211 C129.56 210.54, 84.67 209.73, 32 211 M32 211 C10.79 211.04, -0.52 201.06, 0 179 M32 211 C9.33 211.3, -1.59 201.28, 0 179 M0 179 C-0.42 136.14, -0.07 89.4, 0 32 M0 179 C1.05 126.54, 0.38 72.43, 0 32 M0 32 C1.26 9.72, 9.86 0.25, 32 0 M0 32 C1.17 9.75, 11.73 -1.02, 32 0" stroke="#1e1e1e" stroke-width="2" fill="none"/></g><g stroke-linecap="round" transform="translate(369 90) rotate(0 39.5 71)"><path d="M50 18 C55.6 26.6, 61.37 37.93, 69 54 M50 18 C56.68 29.25, 61.54 40.99, 69 54 M69 54 C77.84 70.16, 79.39 73.02, 69 90 M69 54 C77.92 70.56, 80.45 70.91, 69 90 M69 90 C63.31 99.86, 58.29 109.08, 50 124 M69 90 C61.1 103.82, 54.94 116.09, 50 124 M50 124 C40.88 142.58, 38.67 141.34, 30 124 M50 124 C37.86 143.96, 38.21 143.64, 30 124 M30 124 C21.87 112.37, 18.12 105.23, 10 90 M30 124 C25.92 117.07, 20.94 109.98, 10 90 M10 90 C0.39 73.95, -0.36 70.25, 10 54 M10 90 C-0.93 73.99, 0.13 73.25, 10 54 M10 54 C17.19 42.14, 20.34 31.41, 30 18 M10 54 C15.66 44.32, 20.8 33.85, 30 18 M30 18 C39.23 1.29, 38.01 0.2, 50 18 M30 18 C37.91 -1.87, 39.84 0.3, 50 18" stroke="#1e1e1e" stroke-width="2" fill="none"/></g></svg>
