@@ -86,6 +86,35 @@ Add the following description to the body:
 
 </details>
 
+<details>
+
+<summary>How to share review to MUI?</summary>
+
+We truly appreciate your interest in sharing a review!\
+Please follow the steps below to submit your feedback on MUI:
+
+1. **Log in to the MUI Store** using the same credentials you used at the time of purchase:\
+   [MUI Store Login](https://mui.com/store/sign-in/)
+2. After a successful login, open **SaasAble** in the same browser:\
+   [SaasAble – Multipurpose UI Kit & Dashboard](https://mui.com/store/items/saasable-multipurpose-ui-kit-and-dashboard/)
+3.  You will see a button to write a review. Click it and share your feedback!
+
+
+
+    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+You can only leave a review if logged into your MUI account.
+{% endhint %}
+
+Thanks again for your time and support! 😊
+
+</details>
+
+
+
+
+
 For more detailed FAQs on licensing, please check here:&#x20;
 
 {% content-ref url="licensing.md" %}
