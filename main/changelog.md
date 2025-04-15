@@ -9,7 +9,7 @@
   * React-19
   * Package upgrade
   * Bug fixes
-  * We have commented the section of  **`react-simple-maps`**  due to react-19 incompatibility.
+  * Commented **`react-simple-maps`**  due to react-19 incompatibility.
 
 ## v1.1.0 - 01-04-2025
 
