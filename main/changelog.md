@@ -1,8 +1,19 @@
 # Changelog
 
+## v1.2.0 - 15-04-2025
+
+* UI-KIT
+  * **React 19**
+  * **Package Upgrade**
+* ADMIN
+  * React-19
+  * Package upgrade
+  * Bug fixes
+  * We have commented the section of "**`react-simple-maps`**" due to react-19 incompatibility.
+
 ## v1.1.0 - 01-04-2025
 
-* Ui-KIT
+* UI-KIT
   * **Newly Added Blocks:**
     * Blog: 7
     * FAQs: 8
@@ -14,7 +25,7 @@
   * New Additions:
     * AI & Crypto section on the SaaS page
     * New LMS Landing
-* Admin&#x20;
+* ADMIN
   * New Modules
     * User
     * Blog
