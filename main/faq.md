@@ -43,7 +43,7 @@ Licenses are valid as per MUI policy. Please check the product description page 
 
 <summary><strong>How can I get help?</strong></summary>
 
-Check [support ](support.md)page.
+Check the [support ](support.md)page.
 
 </details>
 
@@ -51,7 +51,7 @@ Check [support ](support.md)page.
 
 <summary>What is not cover under support?</summary>
 
-Check [support](support.md) page
+Check the [support](support.md) page
 
 </details>
 
