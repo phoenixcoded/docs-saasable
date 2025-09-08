@@ -37,7 +37,7 @@ MAILERLITE_GROUP=
 {% code title="src/blocks/ComingSoon.tsx" %}
 ```typescript
 ...
- const notifMeClick = async (e: any) => {
+const submitHandler = async (e: SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {

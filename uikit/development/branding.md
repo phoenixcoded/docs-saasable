@@ -43,13 +43,6 @@ Any reference to logos and branding in **images** will not be replaced automatic
 
 You need to provide the path of your logo in the `src/branding.json`, and the code will use the specified logo instead of the default SaasAble logo. If no path is provided, the SaasAble logo will be used by default. For each logo, there are size guidelines to ensure a better site experience, please check the below guidelines for each logotype:
 
-<table><thead><tr><th width="116"></th><th>main</th><th>logoIcon</th><th>logoFab</th><th>logoWatermark</th></tr></thead><tbody><tr><td>Size</td><td>140x27</td><td>37x40</td><td>94x94</td><td>430x466</td></tr><tr><td>Format</td><td>Image Format</td><td>Image Format</td><td>Image Format</td><td>Image Format</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="116"></th><th>main</th><th>logoIcon</th><th>logoFab</th><th>logoWatermark</th></tr></thead><tbody><tr><td>Size</td><td>140x27</td><td>37x40</td><td>94x94</td><td>430x466</td></tr><tr><td>Format</td><td>Image Format</td><td>Image Format</td><td>Image Format</td><td>Image Format</td></tr></tbody></table>
 
 > Providing image logos will not change the color when updated using the customizer. If you need the logo color to change dynamically at runtime, please use an SVG format, similar to the one used for SaasAble logos.
-
-
-
-
-
-
-
