@@ -23,4 +23,5 @@ All available props for the Cta1 component are defined and handled within **Comp
 | -------------- | ------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | **bgImage**    | `BgImageProps` (Optional) | URL of the background image for the `GraphicsCard`. Optional.                         | Sets the background image of the card.           |
 | **heading**    | `string`                  | Main heading text displayed in the card. Required.                                    | Displays the primary message in the card.        |
-| **primaryBtn** | `ButtonProps`             | Properties for the primary button, such as text, style, and click handlers. Required. | Renders a button for user interaction or action. |
+| caption        | `string` (Optional)       | Subtitle or secondary text below the heading.                                         | Displayed below the heading.                     |
+| **primaryBtn** | `primaryBtn` (Optional)   | Properties for the primary button, such as text, style, and click handlers. Required. | Renders a button for user interaction or action. |

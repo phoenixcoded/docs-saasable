@@ -20,6 +20,6 @@ All available props for the Clientele5 component are defined and handled within 
 
 | Prop              | Type                   | Description                                                    | Displayed as                                                                                                        |
 | ----------------- | ---------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **title**         | `string`               | Optional subtitle to display on the left side of the carousel. | "Our Valued Partners"                                                                                               |
+| **title**         | `string` (Optional)    | Optional subtitle to display on the left side of the carousel. | "Our Valued Partners"                                                                                               |
 | **clienteleList** | `ClienteleListProps[]` | Array of objects with details for each client logo.            | `[ { "src": "/images/client1.png", "alt": "Client 1" }, { "src": "/images/client2.png", "alt": "Client 2" }, ... ]` |
-| **description**   | `string`               | Optional description to display below the carousel.            | "We proudly showcase our esteemed partners."                                                                        |
+| **description**   | `string` (Optional)    | Optional description to display below the carousel.            | "We proudly showcase our esteemed partners."                                                                        |

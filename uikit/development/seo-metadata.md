@@ -14,7 +14,7 @@ import branding from '@/branding.json';
 /***************************  SEO METADATA - MAIN LAYOUT  ***************************/
 
 const title = `${branding.brandName} ${branding.title}`;
-const description = `${branding.brandName} is a cutting-edge software solution designed to revolutionize the way businesses operate. Our platform offers a comprehensive suite of features that enable businesses to streamline their operations, enhance productivity, and drive growth. With ${branding.brandName}, businesses can easily manage their customers, track sales, optimize marketing campaigns, and streamline their internal processes. Whether you're a startup or a large enterprise, ${branding.brandName} has the tools and expertise to help you succeed in today's fast-paced business landscape. Join the ${branding.brandName} community and experience the power of innovative software solutions for business success`;
+const description = `The multipurpose SaaS UI Kit built with React and Material UI is designed for businesses of all sizes to streamline customer management, sales tracking, and marketing optimization. Create stunning SaaS landing and admin with just few clicks!`;
 
 const ogCommonMetadata = {
   locale: 'en_US',
@@ -94,9 +94,9 @@ export const SEO_CONTENT = {
     description: 'About'
   },
 
-  benefit: {
-    title: 'Benifit',
-    description: 'Benifit'
+  metrics: {
+    title: 'Metrics',
+    description: 'Metrics'
   },
 ...
 ...

@@ -14,9 +14,12 @@ All available props for the NavbarContent10 component are defined and handled wi
 
 ## Props Details
 
-| Prop              | Type                                                               | Description                                                | Displayed as                                   |
-| ----------------- | ------------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------- |
-| **navItems**      | Array of [`NavItemProps`](../navmenu.md#navitems-props) (Optional) | nav items using `NavItemProps` interface for item details. | It will display navigation items and sections. |
-| **primaryBtn**    | `ButtonProps` (Optional)                                           | Optional properties for the primary button.                | `{ children: 'Get Started' }`                  |
-| **secondaryBtn**  | `ButtonProps` (Optional)                                           | Optional properties for the secondary button.              | `{ children: 'Buy Now' }`                      |
-| **customization** | `boolean` (Optional)                                               | Optional prop to display customization section.            | It will display theme customization section.   |
+| Prop              | Type                                                               | Description                                                         | Displayed as                                                |
+| ----------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **navItems**      | Array of [`NavItemProps`](../navmenu.md#navitems-props) (Optional) | nav items using `NavItemProps` interface for item details.          | It will display navigation items and sections.              |
+| **primaryBtn**    | `ButtonProps` (Optional)                                           | Optional properties for the primary button.                         | `{ children: 'Get Started' }`                               |
+| **secondaryBtn**  | `ButtonProps` (Optional)                                           | Optional properties for the secondary button.                       | `{ children: 'Buy Now' }`                                   |
+| **customization** | `boolean` (Optional)                                               | Optional prop to display customization section.                     | It will display theme customization section.                |
+| landingBaseUrl    | `string`                                                           | The base URL for the landing page; used for the logo redirect.      | A **clickable logo** that sends users to the given page.    |
+| animated          | `boolean`                                                          | Whether to animate the primary button with a pulsing shadow effect. | Animation on primary button                                 |
+| selectedTheme     | `Theme`                                                            | The currently selected theme mode.                                  | Passed to `<Customization selectedTheme={selectedTheme} />` |

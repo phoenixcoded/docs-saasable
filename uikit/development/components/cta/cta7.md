@@ -19,8 +19,8 @@ All available props for the Cta7 component are defined and handled within **Comp
 
 ## Props Details
 
-| Prop           | Type           | Description                                                                              | Displayed as                            |
-| -------------- | -------------- | ---------------------------------------------------------------------------------------- | --------------------------------------- |
-| **headLine**   | `ReactElement` | A React element representing the main headline or message. Can be a complex JSX element. | Displayed prominently on the left side. |
-| **caption**    | `string`       | Additional text providing context or secondary information.                              | Displayed below the headline.           |
-| **primaryBtn** | `ButtonProps`  | Properties for the primary button (e.g., text, color, variant).                          | Rendered below the caption as a CTA.    |
+| Prop           | Type                      | Description                                                                              | Displayed as                            |
+| -------------- | ------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------- |
+| **headLine**   | `ReactElement` (optional) | A React element representing the main headline or message. Can be a complex JSX element. | Displayed prominently on the left side. |
+| **caption**    | `string`                  | Additional text providing context or secondary information.                              | Displayed below the headline.           |
+| **primaryBtn** | `ButtonProps`             | Properties for the primary button (e.g., text, color, variant).                          | Rendered below the caption as a CTA.    |

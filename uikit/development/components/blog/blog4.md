@@ -18,9 +18,9 @@ All available props for the Blog4 component are defined and handled within **Com
 
 ## Props Details
 
-| Prop            | Type                                              | Description                                                                                                                                                         | Displayed as                                                   |
-| --------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **heading**     | Main heading of the blog section                  | `"Latest Blog Updates"`                                                                                                                                             | `<Typography variant="h2">{heading}</Typography>`              |
-| **caption**     | Secondary description or subtitle for the section | `"Discover the latest trends and insights from our blog"`                                                                                                           | `<Typography variant="h6">{caption}</Typography>`              |
-| **blogs**       | Array of blog items to display in the slider      | `[ { image: "path/to/image1.jpg", chips: ["Tech"], date: "August 27, 2024", caption: "Exploring the future of technology", link: { href: "/blog/future-tech" } } ]` | Mapped over in the `Slider` component to render each blog card |
-| **exploreMore** | Customizable call-to-action button                | `{ href: "/blog", variant: "outlined", size: "large" }`                                                                                                             | Rendered as a `Button` if `exploreMore` is provided            |
+| Prop            | Type                | Description                                       | Displayed as                                                   |
+| --------------- | ------------------- | ------------------------------------------------- | -------------------------------------------------------------- |
+| **heading**     | `string` (optional) | Main heading of the blog section                  | `<Typography variant="h2">{heading}</Typography>`              |
+| **caption**     | `string` (optional) | Secondary description or subtitle for the section | `<Typography variant="h6">{caption}</Typography>`              |
+| **blogs**       | `BlogListProps[]`   | Array of blog items to display in the slider      | Mapped over in the `Slider` component to render each blog card |
+| **exploreMore** | `ButtonProps`       | Customizable call-to-action button                | Rendered as a `Button` if `exploreMore` is provided            |

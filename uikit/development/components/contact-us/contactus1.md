@@ -19,8 +19,8 @@ All available props for the ContactUs1 component are defined and handled within 
 
 ## Props Details
 
-| Prop               | Type           | Description                                                       | Displayed as                                                                        |
-| ------------------ | -------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **heading**        | `string`       | Main title of the contact section.                                | `"Get in Touch"`                                                                    |
-| **caption**        | `string`       | Secondary description or context for the contact section.         | `"We're here to assist you. Reach out to us through any of the following methods:"` |
-| **contactDetails** | `ContactProps` | Contains `address`, `email`, and `phone` for contact information. | `{ address: "123 Main Street", email: "sales@example.com", phone: "+1234567890" }`  |
+| Prop               | Type                | Description                                                       | Displayed as                                                                        |
+| ------------------ | ------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **heading**        | `string`            | Main title of the contact section.                                | `"Get in Touch"`                                                                    |
+| **caption**        | `string` (Optional) | Secondary description or context for the contact section.         | `"We're here to assist you. Reach out to us through any of the following methods:"` |
+| **contactDetails** | `ContactProps`      | Contains `address`, `email`, and `phone` for contact information. | `{ address: "123 Main Street", email: "sales@example.com", phone: "+1234567890" }`  |

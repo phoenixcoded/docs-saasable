@@ -5,7 +5,7 @@ Use a prefix `NEXT_PUBLIC_`
 {% code title=".env" %}
 ```typescript
 ## Version
-NEXT_PUBLIC_VERSION=v1.1.0
+NEXT_PUBLIC_VERSION=v1.3.0
 
 ## Public URL
 NEXT_PUBLIC_PATH=
@@ -30,4 +30,4 @@ MAILERLITE_GROUP=
 ```
 {% endcode %}
 
-For more check here: [https://nextjs.org/docs/api-reference/next.config.js/environment-variables](https://nextjs.org/docs/api-reference/next.config.js/environment-variables)&#x20;
+For more, check here: [https://nextjs.org/docs/api-reference/next.config.js/environment-variables](https://nextjs.org/docs/api-reference/next.config.js/environment-variables)&#x20;

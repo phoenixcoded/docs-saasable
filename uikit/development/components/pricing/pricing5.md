@@ -18,7 +18,7 @@ All available props for the Pricing5 component are defined and handled within **
 | --------------- | ------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **heading**     | `string`            | Main heading for the pricing section                                    | `"Choose Your Plan"`                                                                        |
 | **caption**     | `string` (Optional) | Optional caption providing additional context                           | `"Choose the plan that's right for you."`                                                   |
-| **defaultUnit** | `string`            | Optional unit of measurement or billing cycle description               | `"per month"`                                                                               |
-| **user**        | `string`            | Optional label or identifier for the type of user                       | `"Best for 1-50 users"`                                                                     |
+| **defaultUnit** | `string` (Optional) | Optional unit of measurement or billing cycle description               | `"per month"`                                                                               |
+| **user**        | `string` (Optional) | Optional label or identifier for the type of user                       | `"Best for 1-50 users"`                                                                     |
 | **plans**       | `PlanProps[]`       | Array of plan objects with details such as title, price, features, etc. | Array of plan objects, e.g., `[ { title: "Basic Plan", ... }, { title: "Pro Plan", ... } ]` |
 

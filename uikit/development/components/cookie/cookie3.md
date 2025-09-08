@@ -1,6 +1,6 @@
 ---
 description: >-
-  The TopOffer3 component displays a cookie notification with a customizable
+  The Cookie3 component displays a cookie notification with a customizable
   heading, message, and buttons, styled within a responsive graphics card
   layout.
 ---

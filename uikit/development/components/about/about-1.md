@@ -6,10 +6,8 @@ description: >-
 
 # About 1
 
-
-
 {% hint style="success" %}
-All available props for the `About1` component are defined and handled within **Component usage path** file. This allows for easy modifications to the content of the about section.
+\All available props for the `About1` component are defined and handled within **Component usage path** file. This allows for easy modifications to the content of the about section.
 {% endhint %}
 
 **Component path**: `src/blocks/about/About1.tsx`

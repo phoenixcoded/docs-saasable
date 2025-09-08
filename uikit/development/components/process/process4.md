@@ -18,8 +18,9 @@ All available props for the Process4 component are defined and handled within **
 
 ## Props Details
 
-| Prop        | Type                 | Description                                                                      | Displayed as                                         |
-| ----------- | -------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| **heading** | `string`             | Main title for the component                                                     | `"Our Process"`                                      |
-| **caption** | `string`             | Additional description or context                                                | `"Here’s a step-by-step guide through our process."` |
-| **cards**   | `ProcessCardProps[]` | Array of cards for the timeline, each with a title, description, icon, and image | See example data above                               |
+| Prop        | Type                 | Description                                                                      | Displayed as                                                                            |
+| ----------- | -------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **heading** | `string`             | Main title for the component                                                     | `"Our Process"`                                                                         |
+| **caption** | `string`             | Additional description or context                                                | `"Here’s a step-by-step guide through our process."`                                    |
+| **cards**   | `ProcessCardProps[]` | Array of cards for the timeline, each with a title, description, icon, and image | See example data above                                                                  |
+| isTimeline  | `boolean`            | Whether to show the timeline dots and connectors on the left.                    | Enables/disables the display of timeline UI with dots and connectors. Defaults to true. |

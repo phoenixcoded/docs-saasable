@@ -14,10 +14,10 @@ All available props for the Feature13 component are defined and handled within *
 
 ## Props Details
 
-| Prop          | Type                 | Description                                              | Displayed as                                                                                                                         |
-| ------------- | -------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **heading**   | `string`             | Main heading for the feature section                     | `"Discover Our Features"`                                                                                                            |
-| **caption**   | `string` (Optional)  | Additional subtitle or description.                      | `"Discover the unique aspects of our product"`                                                                                       |
-| **actionBtn** | `ButtonProps`        | Props for the action button                              | `{ variant: 'contained', color: 'primary', children: 'Learn More' }`                                                                 |
-| **cards**     | `FeatureCardProps[]` | Array of feature cards to display                        | `[ { icon: 'icon-name1', title: 'Feature 1', description: 'Description of Feature 1' }, ... ]`                                       |
-| **image**     | (Optional)           | Image path or object with `light` and `dark` image path. | <p><code>"path-to-image.svg"</code><br> or <br><code>{ light: 'path-to-image-light.svg', dark: 'path-to-image-dark.svg' }</code></p> |
+| Prop          | Type                            | Description                                              | Displayed as                                                                                                                         |
+| ------------- | ------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **heading**   | `string`                        | Main heading for the feature section                     | `"Discover Our Features"`                                                                                                            |
+| **caption**   | `string` (Optional)             | Additional subtitle or description.                      | `"Discover the unique aspects of our product"`                                                                                       |
+| **actionBtn** | `ButtonProps`                   | Props for the action button                              | `{ variant: 'contained', color: 'primary', children: 'Learn More' }`                                                                 |
+| **cards**     | `FeatureCardProps[]`            | Array of feature cards to display                        | `[ { icon: 'icon-name1', title: 'Feature 1', description: 'Description of Feature 1' }, ... ]`                                       |
+| **image**     | `ImageCommonProps`   (Optional) | Image path or object with `light` and `dark` image path. | <p><code>"path-to-image.svg"</code><br> or <br><code>{ light: 'path-to-image-light.svg', dark: 'path-to-image-dark.svg' }</code></p> |

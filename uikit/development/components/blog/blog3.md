@@ -19,9 +19,9 @@ All available props for the Blog3 component are defined and handled within **Com
 
 ## Props Details
 
-| Prop        | Type          | Description                                   | Displayed as                                                        | Usage in Code                                           |
-| ----------- | ------------- | --------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- |
-| **heading** | `string`      | Main heading for the blog section             | `"Featured Articles"`                                               | Displayed as the main heading in `Typeset`              |
-| **caption** | `string`      | Subtitle or additional text under the heading | `"Check out our latest posts from industry experts"`                | Displayed below the heading in `Typeset`                |
-| **blogs**   | `BlogProps[]` | Array of blog objects with details            | `[ { "caption": "Exploring the Future of Web Development", ... } ]` | Used to render individual blog cards in the grid layout |
+| Prop        | Type                | Description                                   | Displayed as                                                        | Usage in Code                                           |
+| ----------- | ------------------- | --------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- |
+| **heading** | `string` (optional) | Main heading for the blog section             | `"Featured Articles"`                                               | Displayed as the main heading in `Typeset`              |
+| **caption** | `string` (optional) | Subtitle or additional text under the heading | `"Check out our latest posts from industry experts"`                | Displayed below the heading in `Typeset`                |
+| **blogs**   | `BlogProps[]`       | Array of blog objects with details            | `[ { "caption": "Exploring the Future of Web Development", ... } ]` | Used to render individual blog cards in the grid layout |
 

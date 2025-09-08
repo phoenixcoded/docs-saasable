@@ -14,12 +14,8 @@ All available props for the Feature23 component are defined and handled within *
 
 ## Props Details
 
-| Prop           | Type                          | Description                                                                                              | Display As                                                         |
-| -------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| **heading**    | `string`                      | The title or heading that is displayed at the top of the section.                                        | Displayed as the main title of the section.                        |
-| **caption**    | `string` (Optional)           | Optional subtitle or brief description for the section.                                                  | Displayed below the main heading.                                  |
-| **heading2**   | `string`                      | The title for the second part of the section (inside the `GraphicsCard`).                                | Displayed as a heading inside the card.                            |
-| **caption2**   | `string`                      | Description or caption for the second part of the section (inside the `GraphicsCard`).                   | Displayed below `heading2` as secondary text.                      |
-| **primaryBtn** | `ButtonProps` (Optional)      | Contains button properties for the primary button, like `variant`, `color`, etc.                         | Displayed as a primary button (if provided).                       |
-| **image**      | `ImageCommonProps` (Optional) | Image path or object with `light` and `dark` image path.                                                 | Displayed as an image on the right side of the card (if provided). |
-| **features**   | `IconCardProps[]`             | An array of objects where each object represents a feature card, containing an icon, title, and content. | Displayed as feature cards in a grid layout.                       |
+| Prop        | Type                | Description                                                       | Display As                                                                                                                    |
+| ----------- | ------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **heading** | `string`            | The title or heading that is displayed at the top of the section. | Displayed as the main title of the section.                                                                                   |
+| **caption** | `string` (Optional) | Optional subtitle or brief description for the section.           | Displayed below the main heading.                                                                                             |
+| topics      | `TopicsProps[]`     | Array of topic objects used to create each tab and its content.   | Each topic is displayed as a tab with icon and title, and its panel shows the image, title, description, and optional button. |

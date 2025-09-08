@@ -19,9 +19,9 @@ All available props for the Blog1 component are defined and handled within **Com
 
 ## Props Details
 
-| Prop            | Type                  | Description                                  | Displayed as                                                      |
-| --------------- | --------------------- | -------------------------------------------- | ----------------------------------------------------------------- |
-| **heading**     | `string`              | Title of the blog section                    | `"Latest Blog Posts"`                                             |
-| **caption**     | `string`              | Caption or subtitle for the blog section     | `"Explore our latest articles and insights."`                     |
-| **blogs**       | `Array` of `BlogItem` | List of individual blog posts                | See the `Example Structure` section above                         |
-| **exploreMore** | `Object` or `null`    | Button properties for exploring more content | `{ href: '/explore-more', children: 'Explore More', sx: { ... }}` |
+| Prop            | Type                | Description                                  | Displayed as                                                      |
+| --------------- | ------------------- | -------------------------------------------- | ----------------------------------------------------------------- |
+| **heading**     | `string` (optional) | Title of the blog section                    | `"Latest Blog Posts"`                                             |
+| **caption**     | `string` (optional) | Caption or subtitle for the blog section     | `"Explore our latest articles and insights."`                     |
+| **blogs**       | `BlogListProps[]`   | List of individual blog posts                | See the `Example Structure` section above                         |
+| **exploreMore** | `ButtonProps`       | Button properties for exploring more content | `{ href: '/explore-more', children: 'Explore More', sx: { ... }}` |

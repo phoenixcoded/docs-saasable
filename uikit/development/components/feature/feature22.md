@@ -18,3 +18,5 @@ All available props for the Feature22 component are defined and handled within *
 | ------------ | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- |
 | **heading**  | `string`           | The title or heading that is displayed at the top of the feature section.                                                                              | Displayed as the main title of the section. |
 | **features** | `ImageCardProps[]` | An array of objects where each object contains data for a feature card. Each card can include an image, title, content, and an optional action button. | Displays feature cards in a grid layout.    |
+| caption      | `string`           | A subtitle below the heading, also centered.                                                                                                           | Subheading under `heading`, if provided     |
+

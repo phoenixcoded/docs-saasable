@@ -21,8 +21,8 @@ All available props for the Blog2 component are defined and handled within **Com
 
 ## Props Details
 
-| Prop        | Type          | Description                                                                                           | Displayed as                              |
-| ----------- | ------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| **heading** | `string`      | The main title for the blog section.                                                                  | "Latest News"                             |
-| **caption** | `string`      | A subtitle or description for the blog section, providing more context to the heading.                | "Stay updated with our latest blog posts" |
-| **blogs**   | `Array<Blog>` | An array of blog objects, each representing an individual blog post with an image, caption, and link. | See the JSON example above.               |
+| Prop        | Type                | Description                                                                                           | Displayed as                              |
+| ----------- | ------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| **heading** | `string` (optional) | The main title for the blog section.                                                                  | "Latest News"                             |
+| **caption** | `string` (optional) | A subtitle or description for the blog section, providing more context to the heading.                | "Stay updated with our latest blog posts" |
+| **blogs**   | `BlogListProps[]`   | An array of blog objects, each representing an individual blog post with an image, caption, and link. | See the JSON example above.               |

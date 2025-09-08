@@ -19,9 +19,9 @@ All available props for the Cta12 component are defined and handled within **Com
 
 ## Props Details
 
-| Prop           | Type               | Description                                                                           | Displayed as                                     |
-| -------------- | ------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **heading**    | `string`           | Main heading text displayed prominently.                                              | Positioned at the top of the section.            |
-| **caption**    | `string`           | Additional text providing context or details related to the heading.                  | Positioned below the heading                     |
-| **primaryBtn** | `ButtonProps`      | Properties for the primary button, such as text, style, and click handlers. Required. | Renders a button for user interaction or action. |
-| **image**      | `ImageCommonProps` | Properties for the image, including source, alt text, and styling options.            | Displayed as a visual element or background.     |
+| Prop           | Type                      | Description                                                                           | Displayed as                                     |
+| -------------- | ------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **heading**    | `string`                  | Main heading text displayed prominently.                                              | Positioned at the top of the section.            |
+| **caption**    | `string`                  | Additional text providing context or details related to the heading.                  | Positioned below the heading                     |
+| **primaryBtn** | `ButtonProps`  (Optional) | Properties for the primary button, such as text, style, and click handlers. Required. | Renders a button for user interaction or action. |
+| **image**      | `ImageCommonProps`        | Properties for the image, including source, alt text, and styling options.            | Displayed as a visual element or background.     |

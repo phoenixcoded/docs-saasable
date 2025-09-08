@@ -14,9 +14,10 @@ All available props for the Feature23 component are defined and handled within *
 
 ## Props Details
 
-| Prop        | Type                          | Description                                                                                              | Display As                                                         |
-| ----------- | ----------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| **heading** | `string`                      | The title or heading that is displayed at the top of the section.                                        | Displayed as the main title of the section.                        |
-| **caption** | `string` (Optional)           | Optional subtitle or brief description for the section.                                                  | Displayed below the main heading.                                  |
-| **image**   | `ImageCommonProps` (Optional) | Image path or object with `light` and `dark` image path.                                                 | Displayed as an image on the right side of the card (if provided). |
-| **list**    | `FeatureListProps[]`          | An array of objects where each object represents a feature card, containing an icon, title, and content. | Displayed as feature cards in a grid layout.                       |
+| Prop        | Type                          | Description                                                                                              | Display As                                                                                                   |
+| ----------- | ----------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **heading** | `string`                      | The title or heading that is displayed at the top of the section.                                        | Displayed as the main title of the section.                                                                  |
+| **caption** | `string` (Optional)           | Optional subtitle or brief description for the section.                                                  | Displayed below the main heading.                                                                            |
+| **image**   | `ImageCommonProps` (Optional) | Image path or object with `light` and `dark` image path.                                                 | Displayed as an image on the right side of the card (if provided).                                           |
+| **list**    | `FeatureListProps[]`          | An array of objects where each object represents a feature card, containing an icon, title, and content. | Displayed as feature cards in a grid layout.                                                                 |
+| description | `string` or `ReactNode`       | A paragraph or component explaining the section in more detail.                                          | If it's a string, it’s displayed as `<Typography variant="h6">` if it's a component, it’s rendered directly. |

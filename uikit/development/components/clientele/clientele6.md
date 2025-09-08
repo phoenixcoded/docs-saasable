@@ -20,5 +20,5 @@ All available props for the Clientele6 component are defined and handled within 
 
 | Prop              | Type                   | Description                                          | Displayed as                                                                                                        |
 | ----------------- | ---------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **title**         | `string`               | Optional heading to display above the grid of logos. | "Our Partners"                                                                                                      |
+| **title**         | `string` (Optional)    | Optional heading to display above the grid of logos. | "Our Partners"                                                                                                      |
 | **clienteleList** | `ClienteleListProps[]` | Array of objects with details for each client logo.  | `[ { "src": "/images/client1.png", "alt": "Client 1" }, { "src": "/images/client2.png", "alt": "Client 2" }, ... ]` |

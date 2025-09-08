@@ -23,3 +23,5 @@ All available props for the Team8 component are defined and handled within **Com
 | **heading** | `string`            | Main title for the team section                                        | `"Meet Our Experts"`                                                                                                 |
 | **caption** | `string` (Optional) | Subtitle or additional context for the team section                    | `"The talented individuals who make our vision a reality"`                                                           |
 | **members** | `ProfileProps[]`    | List of team members, each with avatar, name, role, and optional badge | `[ { avatar: "/images/member1.jpg", name: "Alice Johnson", role: "Project Manager", badge: "Top Performer" }, ... ]` |
+| isFilter    | boolean             | If `true`, applies grayscale filter on images.                         | Affects the `GraphicsCard`image style (e.g., grayscale).                                                             |
+

@@ -21,7 +21,7 @@ All available props for the Pricing9 component are defined and handled within **
 
 | Property     | Type                  | Description                                  | Displayed as                                       |
 | ------------ | --------------------- | -------------------------------------------- | -------------------------------------------------- |
-| **heading**  | `string`              | Main title for the pricing section           | `"Our Pricing Plans"`                              |
+| **heading**  | `string` (Optional)   | Main title for the pricing section           | `"Our Pricing Plans"`                              |
 | **caption**  | `string` (Optional)   | Optional additional description or context   | `"Choose a plan that suits your needs"`            |
 | **plans**    | `Pricing5PlanProps[]` | Array of pricing plan details                | `[{ title: "Basic Plan", price: "19", ... }, ...]` |
 | **features** | `FeatureProps[]`      | Array of features available in pricing plans | `[{ id: 1, label: "24/7 Support" }, ...]`          |

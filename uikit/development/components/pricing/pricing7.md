@@ -21,8 +21,8 @@ All available props for the Pricing7 component are defined and handled within **
 
 | Prop            | Type                 | Description                                                                                    | Displayed as                                                               |
 | --------------- | -------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| **heading**     | `string`             | Main heading for the pricing section                                                           | `"Our Pricing Plans"`                                                      |
-| **caption**     | `string`             | Additional context or description for the heading                                              | `"Choose the plan that best fits your needs"`                              |
+| **heading**     | `string` (Optional)  | Main heading for the pricing section                                                           | `"Our Pricing Plans"`                                                      |
+| **caption**     | `string` (Optional)  | Additional context or description for the heading                                              | `"Choose the plan that best fits your needs"`                              |
 | **defaultUnit** | `string`             | Default time unit for pricing display (`'monthly'` or `'yearly'`)                              | `"per month"`                                                              |
 | **plans**       | `Pricing3PlanProps`  | Details about a specific pricing plan, including title, description, price, features, and link | `{ title: "Pro Plan", ... }`                                               |
 | **benefitList** | `BenefitListProps[]` | List of benefits with icons, titles, and descriptions                                          | `[ { icon: { name: "tabler-crown" }, title: "Exclusive Features", ... } ]` |

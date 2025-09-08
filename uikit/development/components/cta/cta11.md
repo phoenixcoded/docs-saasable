@@ -19,11 +19,11 @@ All available props for the Cta11 component are defined and handled within **Com
 
 ## Props Details
 
-| Prop             | Type               | Description                                                                                       | Displayed as                                   |
-| ---------------- | ------------------ | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| **heading**      | `string`           | Main heading text displayed prominently.                                                          | Positioned at the top of the section.          |
-| **caption**      | `string`           | Additional text providing context or details related to the heading.                              | Positioned below the heading.                  |
-| **primaryBtn**   | `ButtonProps`      | Properties for the primary call-to-action button, including text, color, size, and variant.       | Main action button, styled prominently.        |
-| **secondaryBtn** | `ButtonProps`      | Properties for the secondary button, offering an alternative action with a different style.       | Alternative action button, typically outlined. |
-| **list**         | `ListProps[]`      | Array of items each containing primary text. Can include icons to represent features or benefits. | Rendered as a list with optional icons.        |
-| **image**        | `ImageCommonProps` | Properties for the image, including source, alt text, and styling options.                        | Displayed as a visual element or background.   |
+| Prop             | Type                     | Description                                                                                       | Displayed as                                   |
+| ---------------- | ------------------------ | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| **heading**      | `string`                 | Main heading text displayed prominently.                                                          | Positioned at the top of the section.          |
+| **caption**      | `string`                 | Additional text providing context or details related to the heading.                              | Positioned below the heading.                  |
+| **primaryBtn**   | `ButtonProps`            | Properties for the primary call-to-action button, including text, color, size, and variant.       | Main action button, styled prominently.        |
+| **secondaryBtn** | `ButtonProps` (Optional) | Properties for the secondary button, offering an alternative action with a different style.       | Alternative action button, typically outlined. |
+| **list**         | `ListProps[]` (Optional) | Array of items each containing primary text. Can include icons to represent features or benefits. | Rendered as a list with optional icons.        |
+| **image**        | `ImageCommonProps`       | Properties for the image, including source, alt text, and styling options.                        | Displayed as a visual element or background.   |

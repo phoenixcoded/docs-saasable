@@ -18,5 +18,5 @@ All available props for the Pricing1 component are defined and handled within **
 | --------------- | ------------------- | --------------------------------------------------------- | ------------------------------------------------------------- |
 | **heading**     | `string`            | Main heading text of the section.                         | `"Our Pricing Plans"`                                         |
 | **caption**     | `string` (Optional) | Additional caption below the heading (optional).          | `"Choose the plan that's right for you."`                     |
-| **defaultUnit** | `string`            | Unit of currency or measurement (optional).               | `"per month"`                                                 |
+| **defaultUnit** | `string` (Optional) | Unit of currency or measurement (optional).               | `"per month"`                                                 |
 | **plans**       | `PlanProps[]`       | Array of plan objects with details for each pricing plan. | `[ { title: "Basic Plan", price: "29", features: [ ... ] } ]` |

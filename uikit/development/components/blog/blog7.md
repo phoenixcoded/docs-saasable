@@ -1,6 +1,6 @@
 ---
 description: >-
-  Blog6 component renders a section of blog posts with a main heading, a
+  Blog7 component renders a section of blog posts with a main heading, a
   featured blog card, additional blog cards in a grid layout, and  "Explore
   More" button, using Material UI and responsive design
 ---
@@ -19,7 +19,7 @@ All available props for the Blog1 component are defined and handled within **Com
 
 ## Props Details
 
-| Prop        | Type                  | Description                   | Displayed as                              |
-| ----------- | --------------------- | ----------------------------- | ----------------------------------------- |
-| **heading** | `string`              | Title of the blog section     | `"Latest Blog Posts"`                     |
-| **blogs**   | `Array` of `BlogItem` | List of individual blog posts | See the `Example Structure` section above |
+| Prop        | Type                | Description                   | Displayed as                              |
+| ----------- | ------------------- | ----------------------------- | ----------------------------------------- |
+| **heading** | `string` (optional) | Title of the blog section     | `"Latest Blog Posts"`                     |
+| **blogs**   | `BlogListProps[]`   | List of individual blog posts | See the `Example Structure` section above |

@@ -19,9 +19,9 @@ All available props for the Cta9 component are defined and handled within **Comp
 
 ## Props Details
 
-| Prop           | Type               | Description                                                                          | Displayed as                                   |
-| -------------- | ------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------- |
-| **heading**    | `string`           | The main headline text for the call-to-action section.                               | Displayed prominently at the top.              |
-| **caption**    | `string`           | Secondary text providing additional context or details below the heading.            | Positioned below the heading.                  |
-| **primaryBtn** | `ButtonProps`      | Properties for the primary button, including text, color, size, and variant.         | Rendered below the caption as a CTA.           |
-| **image**      | `ImageCommonProps` | Properties related to the background image, including source, alt text, and styling. | Used for displaying a styled background image. |
+| Prop           | Type                                             | Description                                                                          | Displayed as                                   |
+| -------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------- |
+| **heading**    | `string`                                         | The main headline text for the call-to-action section.                               | Displayed prominently at the top.              |
+| **caption**    | `string`                                         | Secondary text providing additional context or details below the heading.            | Positioned below the heading.                  |
+| **primaryBtn** | <p><code>ButtonProps</code></p><p>(Optional)</p> | Properties for the primary button, including text, color, size, and variant.         | Rendered below the caption as a CTA.           |
+| **image**      | `ImageCommonProps`                               | Properties related to the background image, including source, alt text, and styling. | Used for displaying a styled background image. |

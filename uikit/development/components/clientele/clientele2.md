@@ -20,5 +20,5 @@ All available props for the Clientele2 component are defined and handled within 
 
 | Prop Name         | Type                   | Description                                         | Displayed as                                                                                                   |
 | ----------------- | ---------------------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **title**         | `string`               | Optional title to display above the client logos.   | "Our Valued Clients"                                                                                           |
+| **title**         | `string` (Optional)    | Optional title to display above the client logos.   | "Our Valued Clients"                                                                                           |
 | **clienteleList** | `ClienteleListProps[]` | Array of objects with details for each client logo. | `[ { "src": "/images/client1.png", "alt": "Client 1" }, { "src": "/images/client2.png", "alt": "Client 2" } ]` |

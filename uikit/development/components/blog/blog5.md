@@ -21,7 +21,7 @@ All available props for the Blog5 component are defined and handled within **Com
 
 | Prop         | Type                      | Description                                   | Displayed as                                        |
 | ------------ | ------------------------- | --------------------------------------------- | --------------------------------------------------- |
-| **heading**  | `string`                  | Main heading for the blog section             | `"Latest Blog Posts"`                               |
-| **caption**  | `string`                  | Subtitle or additional text under the heading | `"Explore our most recent articles and updates"`    |
+| **heading**  | `string` (optional)       | Main heading for the blog section             | `"Latest Blog Posts"`                               |
+| **caption**  | `string` (optional)       | Subtitle or additional text under the heading | `"Explore our most recent articles and updates"`    |
 | **viewMore** | `ButtonProps & LinkProps` | Configuration for the "View More" button/link | `{ href: "/more-blogs", variant: "contained" }`     |
 | **blogs**    | `BlogListProps[]`         | Array of blog objects with details            | `[{ "caption": "Understanding React Hooks", ... }]` |

@@ -4,8 +4,8 @@ description: This docs cover how can you add or update fant family for specific 
 
 # Font Family
 
-1. Import new package for font family (Ignore if you want to use existing and provided font family with saasable). To add free Google fonts refer [google fonts](https://fonts.google.com/)
-2. Update the config to consider new font family and export it.
+1. Import new package for font family (Ignore if you want to use the existing and provided font family with SaaSable). To add free Google fonts, refer to [Google fonts](https://fonts.google.com/)
+2. Update the config to consider the new font family and export it.
 
 {% tabs %}
 {% tab title="src/config.ts" %}

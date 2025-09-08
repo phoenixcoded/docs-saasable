@@ -14,9 +14,11 @@ All available props for the SmallHero5 component are defined and handled within 
 
 ## Props Details
 
-| Prop           | Type                     | Description                                                                                                | Displayed as                                             |
-| -------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **heading**    | `string`                 | The main title or heading of the hero section.                                                             | `"Welcome to Our Latest Collection"`                     |
-| **caption**    | `string`                 | An additional description or subheading below the main heading.                                            | `"Explore our range of new and exciting products."`      |
-| **exploreBtn** | `ButtonProps` (Optional) | Configuration for an optional button, which can include properties like `href`, `onClick`, and `children`. | `{ href: '/explore', children: 'Explore Now' }`          |
-| **list**       | `string[]`               | An array of strings displayed in a scrolling marquee.                                                      | `['Limited Time Offer', 'New Arrivals', 'Best Sellers']` |
+| Prop            | Type                     | Description                                                                                                | Displayed as                                               |
+| --------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **heading**     | `string`                 | The main title or heading of the hero section.                                                             | `"Welcome to Our Latest Collection"`                       |
+| **caption**     | `string`                 | An additional description or subheading below the main heading.                                            | `"Explore our range of new and exciting products."`        |
+| **exploreBtn**  | `ButtonProps` (Optional) | Configuration for an optional button, which can include properties like `href`, `onClick`, and `children`. | `{ href: '/explore', children: 'Explore Now' }`            |
+| **list**        | `string[]`               | An array of strings displayed in a scrolling marquee.                                                      | `['Limited Time Offer', 'New Arrivals', 'Best Sellers']`   |
+| circleStopColor | `string`                 | Color for the `Circles`SVG in the background.                                                              | Passed as a prop to the `Circles` component (`stopColor`). |
+
