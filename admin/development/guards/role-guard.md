@@ -2,8 +2,6 @@
 
 A **Role Guard** restricts access to specific pages based on the user's role, such as "admin" or "user". It ensures that only users with the appropriate permissions can view or interact with certain sections, enhancing security and access control. 🛡️👤
 
-
-
 ### Role based page access
 
 **Role guard** is configured at **`src/utils/route-guard/RoleGuard.tsx`**

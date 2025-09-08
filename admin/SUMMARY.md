@@ -24,6 +24,7 @@
   * [JWT](development/auth/jwt.md)
   * [Firebase](development/auth/firebase.md)
   * [Supabase](development/auth/supabase.md)
+  * [AWS](development/auth/aws.md)
 * [How to](development/how-to/README.md)
   * [Change Logo](development/how-to/change-logo.md)
   * [Skip Login](development/how-to/skip-login.md)
