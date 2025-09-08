@@ -17,7 +17,7 @@
 * [Menu](development/menu.md)
 * [Env Variables](development/env-variables.md)
 * [API Calls](development/api-calls.md)
-* [todo: Multi Language](development/todo-multi-language.md)
+* [Multi Language](development/multi-language.md)
 * [Dependencies](development/dependencies.md)
 * [Auth](development/auth/README.md)
   * [Auth0](development/auth/auth0.md)
