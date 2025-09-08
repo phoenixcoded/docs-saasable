@@ -5,7 +5,7 @@ Use a prefix `NEXT_PUBLIC_`
 {% code title=".env" %}
 ```typescript
 ## Version
-NEXT_PUBLIC_VERSION=v1.1.0
+NEXT_PUBLIC_VERSION=v1.2.0
 
 ## Public URL
 NEXT_PUBLIC_PATH=
