@@ -1,5 +1,43 @@
 # Changelog
 
+## v2.0.0 - 31-12-2025
+
+**UI-KIT**
+
+* **Improvements**
+  * Introduced **CSS Variables** to enhance theming flexibility and maintainability.
+  * Removed deprecated **Grid column properties** to align with the latest standards.
+  * Resolved **Stack** layout spacing issues, including `gap`, `justifyContent`, and `alignItems`.
+  * Corrected **slotProps** usage for improved component consistency.
+* **Upgrades**
+  * Upgraded project dependencies to the latest stable versions
+  * Upgraded framework to **React v19.2.x**.
+  * Updated platform to **Next.js v16.1.x**.
+
+#### ADMIN <a href="#admin" id="admin"></a>
+
+* **New Features**
+  * Added **Dashboard animations** with interactive component demos.
+  * Implemented an enhanced **authentication system** with support for:
+    * **Supabase** (Google & Facebook login)
+    * **JWT-based authentication**
+    * **Firebase authentication**
+  * Integrated **Quill Editor** plugin with demo implementation.
+  * Introduced **CSS Variables** for improved theming and customization.
+  * Added **Yarn** as the package manager.
+* **Improvements**
+  * Enhanced **Context management** aligned with the Mantis architecture.
+  * Updated **menu items** for improved navigation and structure.
+  * Implemented **auto system mode** support (design-ready).
+  * Removed deprecated **Grid column properties**.
+  * Fixed **Stack** layout spacing issues (`gap`, `justifyContent`, `alignItems`).
+  * Corrected **slotProps** usage across components.
+  * Centralized data fetching using a **single API call** with **Loader** and **Error Boundary** handling.
+* **Upgrades**
+  * Upgraded project dependencies to the latest stable versions.
+  * Updated to **React v19.2**.
+  * Updated to **Next.js v16**.
+
 ## v1.3.0 - 07-08-2025
 
 **UI-KIT**
