@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.0 - 16-01-2026
+
+* Separated Admin and UI. Next changelog will be found in the respective pages.
+* [UIKIT](https://phoenixcoded.gitbook.io/saasable/ui-kit/global/changelog)
+* [Admin](https://phoenixcoded.gitbook.io/saasable/admin/global/changelog)
+
 ## v2.0.0 - 31-12-2025
 
 **UI-KIT**
